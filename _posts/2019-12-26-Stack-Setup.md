@@ -48,6 +48,7 @@ Host $IPs
      ForwardAgent yes
      HostKeyAlgorithms +ssh-dss
 ```
+Lastly, SSH! If you want a more secure way to communicate with a server without typing in password. 🙂
 
 3. Python 
 In whichever environment, it's best-practice to not depend on system python for development or production scripts. Therefore, it's highly recommended to install [miniconda](https://docs.conda.io/en/latest/miniconda.html) as listed below.
@@ -155,17 +156,12 @@ The next thing is to link your ~/.bashrc with your ~/.bash_profile so you could 
 
 If on Mac, you may also want to [add the code command to your PATH](https://code.visualstudio.com/docs/setup/mac). 
 
-> code
-
-as a command to launch sublime with this tutorial.
-
-Lastly, SSH! If you want a more secure way to communicate with a server without typing in password. 🙂
 
 ## Python Customization
 If you are new to Python, I suggest you go straight into Python 3. Here is a pretty good intro on what you’d need for the setup. I’ve also installed some of the sublime plugins following this tutorial and this post, however, YMMV. If you are coding in Python 2, DON’T remove the pre-installed python and install python via brew. [2]
 
 #### Additional Python setup 
-Every language has their own style, the most common style for python are Black and Flake8, so installing them as your linters would be a good start, 
+Every language has their own style, the most common styles for python are Black and Flake8, so installing them as your linters would be a good start, 
 ```
 pip install black flake8
 ```
