@@ -9,18 +9,19 @@ I got an old laptop from my, non blood related, auntie, Asus EeePC with good old
 
 The ethonet connection and wireless connection were there, but network-manager was not found. Thankfully, ifconfig is here to save the day.
 
-Enter ifconfig on the terminal to see which network connections are available.
-Enter sudo ifconfig <cxn_name> up to open the connection.
-Then enter sudo dhclient <cxn_name> to kick off the protocol.
-If you want to connect via wifi, you would
-Otherwise, check your connection by pinging yahoo or google.
-To simplify your life in the future, download network-manager-gnome (network-manager should come with it) by sudo apt-get install network-manager-gnome
-Run Network Manager by entering sudo service network-manager restart and sudo service networking start
-Enter nm-applet to start the Network Manager
-I’d also suggest you to download sudo apt-get install software-properties-common for other goodies, e.g. I downloaded midori
+1. Enter ifconfig on the terminal to see which network connections are available.
+2. Enter sudo ifconfig <cxn_name> up to open the connection.
+3. Then enter sudo dhclient <cxn_name> to kick off the protocol.
+4. If you want to connect via wifi, you would
+5. Otherwise, check your connection by pinging yahoo or google.
+6. To simplify your life in the future, download network-manager-gnome (network-manager should come with it) by sudo apt-get install network-manager-gnome
+7. Run Network Manager by entering sudo service network-manager restart and sudo service networking start
+8. Enter nm-applet to start the Network Manager
+9. I’d also suggest you to download sudo apt-get install software-properties-common for other goodies, e.g. I downloaded midori
+
 Now have fun with the internet!
 
 Reference:
 
-https://askubuntu.com/questions/422928/how-to-reinstall-network-manager-without-internet-access
-https://askubuntu.com/questions/652401/i-accidentally-deleted-the-network-manager-and-dont-have-access-to-internet-any
+1. https://askubuntu.com/questions/422928/how-to-reinstall-network-manager-without-internet-access
+2. https://askubuntu.com/questions/652401/i-accidentally-deleted-the-network-manager-and-dont-have-access-to-internet-any
