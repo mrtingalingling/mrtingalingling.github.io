@@ -90,3 +90,7 @@ ENV/
 
 # User Secret
 *secret*
+
+# Jekyll ignore
+_site/
+.jekyll-metadata
