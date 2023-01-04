@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Ting's Tech Blog
-email: doesnotexist@tinglik.co
+title: Ting's Git Blog
+email: doesnotexist@tinglik
 description: > # this means to ignore newlines until "baseurl:"
   Still debating what to write here in my _config.yml. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.tinglik.co" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://www.tinglik.to" # the base hostname & protocol for your site
+twitter_username: mrtingalingling
+github_username:  mrtingalingling
 
 # Build settings
 markdown: kramdown
