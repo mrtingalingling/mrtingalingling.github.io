@@ -9,7 +9,7 @@
 title: Ting's Project Blog
 email: idontexist@tinglik.to
 description: > # this means to ignore newlines until "baseurl:"
-  a continuum of the eternal echos of the higgledy-piggledy mind
+  a continuum of eternal echos of a higgledy-piggledy mind
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.tinglik.to" # the base hostname & protocol for your site
 twitter_username: mrtingalingling
